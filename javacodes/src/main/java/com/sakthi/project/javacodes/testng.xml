@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="interview" parellel="methods" thread-count="10">
+<test name="java">
+<groups>
+		<run>
+		<include name="test123"></include>
+	</run>
+</groups>
+<packages>
+<package name="com.sakthi.project.javacodes"/>
+</packages>
+</test>
+</suite>
