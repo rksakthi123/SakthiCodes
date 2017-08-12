@@ -1,5 +1,7 @@
 package String;
 
+import org.testng.annotations.Test;
+
 public class Palindrom {
 
 	/**
@@ -12,6 +14,7 @@ public class Palindrom {
 
 	}
 	
+	@Test(groups="test")
 	public void test(String s){
 		boolean status=true;
 		for(int i=0,j=s.length()-1;i<s.length()/2;i++,j--){
