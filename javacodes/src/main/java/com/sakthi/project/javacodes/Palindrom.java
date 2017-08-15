@@ -31,5 +31,8 @@ public class Palindrom {
 	public void test2(){
 		System.out.println("hello");
 	}
+	public void test3(){
+		System.out.println("hello world");
+	}
 
 }
