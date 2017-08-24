@@ -44,4 +44,9 @@ public class Palindrom {
 		System.out.println("hello world  6");
 	}
 
+	public void test5(){
+		System.out.println("hello world 5");
+	}
+
+
 }
