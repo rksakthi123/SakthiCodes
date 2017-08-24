@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Failed suite [interview]">
+  <test name="java(failed)">
+    <groups>
+      <run>
+        <include name="test1234"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.sakthi.project.javacodes.MultiTests">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- com.sakthi.project.javacodes.MultiTests -->
+    </classes>
+  </test> <!-- java(failed) -->
+</suite> <!-- Failed suite [interview] -->

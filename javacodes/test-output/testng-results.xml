@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="68" started-at="2017-08-21T13:49:12Z" finished-at="2017-08-21T13:49:12Z">
+    <groups>
+      <group name="test1234">
+        <method signature="MultiTests.test2()[pri:0, instance:com.sakthi.project.javacodes.MultiTests@13c78c0b]" name="test2" class="com.sakthi.project.javacodes.MultiTests"/>
+        <method signature="MultiTests.test6()[pri:0, instance:com.sakthi.project.javacodes.MultiTests@13c78c0b]" name="test6" class="com.sakthi.project.javacodes.MultiTests"/>
+      </group> <!-- test1234 -->
+      <group name="test1235">
+        <method signature="MultiTests.test6()[pri:0, instance:com.sakthi.project.javacodes.MultiTests@13c78c0b]" name="test6" class="com.sakthi.project.javacodes.MultiTests"/>
+      </group> <!-- test1235 -->
+    </groups>
+    <test name="Default test" duration-ms="68" started-at="2017-08-21T13:49:12Z" finished-at="2017-08-21T13:49:12Z">
+      <class name="com.sakthi.project.javacodes.MultiTests">
+        <test-method status="FAIL" signature="test2()[pri:0, instance:com.sakthi.project.javacodes.MultiTests@13c78c0b]" name="test2" duration-ms="26" started-at="2017-08-21T19:19:12Z" finished-at="2017-08-21T19:19:12Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Sakthi1] but found [Sakthi]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Sakthi1] but found [Sakthi]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.sakthi.project.javacodes.MultiTests.test2(MultiTests.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.sakthi.project.javacodes.MultiTests@13c78c0b]" name="test2" duration-ms="2" started-at="2017-08-21T19:19:12Z" finished-at="2017-08-21T19:19:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test6()[pri:0, instance:com.sakthi.project.javacodes.MultiTests@13c78c0b]" name="test6" duration-ms="3" started-at="2017-08-21T19:19:12Z" finished-at="2017-08-21T19:19:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+      </class> <!-- com.sakthi.project.javacodes.MultiTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -3,7 +3,7 @@
 <test name="java">
 <groups>
 		<run>
-		<include name="test123"></include>
+		<include name="test1234"></include>
 	</run>
 </groups>
 <packages>
