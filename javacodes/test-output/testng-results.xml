@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="interview" duration-ms="47" started-at="2017-08-15T08:06:40Z" finished-at="2017-08-15T08:06:40Z">
+    <groups>
+      <group name="test123">
+        <method signature="Palindrom.test()[pri:0, instance:com.sakthi.project.javacodes.Palindrom@15a615a6]" name="test" class="com.sakthi.project.javacodes.Palindrom"/>
+      </group> <!-- test123 -->
+    </groups>
+    <test name="java" duration-ms="47" started-at="2017-08-15T08:06:40Z" finished-at="2017-08-15T08:06:40Z">
+      <class name="com.sakthi.project.javacodes.Palindrom">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.sakthi.project.javacodes.Palindrom@15a615a6]" name="test" duration-ms="16" started-at="2017-08-15T13:36:40Z" finished-at="2017-08-15T13:36:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.sakthi.project.javacodes.Palindrom -->
+    </test> <!-- java -->
+  </suite> <!-- interview -->
+</testng-results>
