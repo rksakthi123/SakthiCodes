@@ -35,5 +35,10 @@ public class MultiTests {
 		System.out.println("i am in test4");
 		System.out.println("====================");
 	}
+	public void test5(){
+		System.out.println("====================");
+		System.out.println("i am in test4");
+		System.out.println("====================");
+	}
 
 }
